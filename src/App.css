@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.talep_tablo {
+  display: table;
+  margin-top: 16px;
+  width: 100%;
+}
+.talep {
+  align-items: center;
+  margin-top: 8px;
+
+  display: table-row;
+}
+
+.talep div {
+  text-align: left;
+  display: table-cell;
+}
+
+.talep_baslik {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #646cff;
+}
+
+.talep_tarih {
+  opacity: 0.7;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+}
+
+.yorum {
+  display: flex;
+  border: 1px solid rgba(245, 245, 245, 0.25);
+  padding: 4px;
+  flex-direction: column;
+}
+.yorum p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  /* color: rgba(243, 243, 243, 0.288); */
+}
+.yorum span {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.5;
+  /* color: rgba(243, 243, 243, 0.288); */
+}
+
+.yorumkutusu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 4px;
+  gap: 8px;
+}
+
+.cizgi {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(245, 245, 245, 0.25);
+}
+
+.talep_formu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.talep_formu input,
+.talep_formu textarea,
+.talep_formu button {
+  width: 100%;
+}
